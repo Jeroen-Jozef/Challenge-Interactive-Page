@@ -5,12 +5,17 @@
 }
 
 body {
-
+    /*background-color: #00F5E6;*/
+    opacity: 0.2s;
 }
 
 header {
     position: relative;
 
+}
+
+h1, h2 {
+    color: #F96E21;
 }
 
 header h1 {
@@ -54,11 +59,16 @@ header h2 {
     min-height: 500px;
     margin-left: 20px;
     margin-top: 20px;
+    visibility: visible;
 }
 
 .summary h1 {
     /*top: 1500px;*/
-    color: black;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    width: 800px;
 }
 
 ul {
@@ -69,10 +79,32 @@ li {
     display: inline;
     list-style-type: none;
     margin-right: 20px;
-
+    background-color: #F96E21;
+    padding: 3px;
+    border-radius: 3px;
 }
 
 li a {
     text-decoration: none;
     color: black;
+}
+
+.practicalInfo {
+    visibility: hidden;
+}
+
+address {
+    float: left;
+}
+
+.tickets {
+    float: left;
+}
+
+.contactForm {
+    visibility: visible;
+}
+
+footer {
+    background-color: #F96E21;
 }
