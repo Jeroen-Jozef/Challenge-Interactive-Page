@@ -13,7 +13,7 @@ header {
 
 }
 
-h1 {
+header h1 {
     position: absolute;
     padding-left: 500px;
     padding-top: 200px;
@@ -21,9 +21,9 @@ h1 {
     /*margin-right: 500px;*/
 }
 
-h2 {
+header h2 {
     position: absolute;
-    padding-left: 605px;
+    padding-left: 545px;
     padding-top: 240px;
     color: white;
 }
@@ -51,16 +51,24 @@ h2 {
 
 .middleSection {
     position: relative;
+    min-height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.summary h1 {
+    /*top: 1500px;*/
+    color: black;
 }
 
 ul {
-    padding-left: 605px;
-    right: 550px;
+    margin-bottom: 20px;
 }
 
 li {
     display: inline;
     list-style-type: none;
+    margin-right: 20px;
 
 }
 
